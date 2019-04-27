@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
   BeforeInstall: 
-    - location: /tmp/CodeDeployGitHubDemo1/README.md
+    - location: 
       timeout: 300
       runas: root
   AfterInstall:
-    - location: /tmp/CodeDeployGitHubDemo1/test
+    - location: 
       timeout: 300
       runas: root
